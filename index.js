@@ -67,7 +67,7 @@ const Contact = mongoose.model("Contact", ContactSchema);
 
 // ------------------ ROUTES ------------------
 
-const eventRoutes = require("./routes/eventRoutes");
+const eventRoutes = require("./routes/eventroutes");
 app.use("/api/events", eventRoutes);
 
 // Resume upload config using Multer
